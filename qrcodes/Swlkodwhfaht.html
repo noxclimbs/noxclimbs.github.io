@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>QR Code Landing</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#more {display: none;}
+	a {
+		color: darkgreen;
+		text-decoration: none;
+		font-size: 24pt;
+		font: bold;
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+	}
+	button {
+		background: green
+	}
+</style>
+</head>
+
+<body>
+	<a href="https://www.instagram.com/nox.climbing/">Nox's Instagram</a><br>
+	<a href="https://www.instagram.com/alex_usanov_961/">Alex's Instagram</a>
+	<a href=""></a>
+
+<br><br><p>What is this?<span id="dots"></span><span id="more"> <br>This page is a QR Code landing page to promote our social medias. </span></p>
+<button onclick="myFunction()" id="myBtn">Read more</button>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+</body>
+</html>
