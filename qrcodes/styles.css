@@ -1,0 +1,54 @@
+/* CSS Document */
+
+#more {display: none;}
+	.first a {
+		color: #ba549a;
+		text-decoration: none;
+		font-size: 24pt;
+		font: bold;
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+	}
+	.first button {
+		background: #83356B
+	}
+	.s a {
+		color: #8e94f2;
+		text-decoration: none;
+		font-size: 24pt;
+		font: bold;
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+	}
+	.s button {
+		background: #4650E9
+	}
+	.t a {
+		color: #ffcc00;
+		text-decoration: none;
+		font-size: 24pt;
+		font: bold;
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+	}
+	.t button {
+		background: #D8AD00
+	}
+
+	.f a {
+		color: #87da1c;
+		text-decoration: none;
+		font-size: 24pt;
+		font: bold;
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+	}
+	.f button {
+		background: #66A615
+	}
+	.fif a {
+		color: #f98870;
+		text-decoration: none;
+		font-size: 24pt;
+		font: bold;
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+	}
+	.fif button {
+		background: #F76B4D
+	}
